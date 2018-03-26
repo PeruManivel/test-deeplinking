@@ -1,0 +1,97 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/bin/node',
+1 verbose cli   '/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'pisco-cells-app-create@^1.1.0' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData pisco-cells-app-create@^1.1.0
+8 silly fetchNamedPackageData pisco-cells-app-create
+9 silly mapToRegistry name pisco-cells-app-create
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'pisco-cells-app-create',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'pisco-cells-app-create',
+12 silly mapToRegistry   name: 'pisco-cells-app-create',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/pisco-cells-app-create
+14 verbose request uri https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/pisco-cells-app-create
+15 verbose request always-auth set; sending authorization
+16 info attempt registry request try #1 at 5:47:23 PM
+17 verbose request id 1e303fb0d3f76a4b
+18 http request GET https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/pisco-cells-app-create
+19 http 401 https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/pisco-cells-app-create
+20 verbose headers { 'content-type': 'application/json;charset=ISO-8859-1',
+20 verbose headers   date: 'Mon, 26 Mar 2018 22:47:23 GMT',
+20 verbose headers   server: 'nginx',
+20 verbose headers   'www-authenticate': 'Basic realm="Artifactory Realm"',
+20 verbose headers   'x-artifactory-id': 'b323abf51a56c8f878a52dd27c7cf97310d57b52',
+20 verbose headers   'x-artifactory-node-id': 'pro-globaldevops-artifactory-2}',
+20 verbose headers   'content-length': '167',
+20 verbose headers   connection: 'keep-alive' }
+21 silly get cb [ 401,
+21 silly get   { 'content-type': 'application/json;charset=ISO-8859-1',
+21 silly get     date: 'Mon, 26 Mar 2018 22:47:23 GMT',
+21 silly get     server: 'nginx',
+21 silly get     'www-authenticate': 'Basic realm="Artifactory Realm"',
+21 silly get     'x-artifactory-id': 'b323abf51a56c8f878a52dd27c7cf97310d57b52',
+21 silly get     'x-artifactory-node-id': 'pro-globaldevops-artifactory-2}',
+21 silly get     'content-length': '167',
+21 silly get     connection: 'keep-alive' } ]
+22 silly fetchPackageMetaData Error: Registry returned 401 for GET on https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/pisco-cells-app-create
+22 silly fetchPackageMetaData     at makeError (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+22 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+22 silly fetchPackageMetaData     at Request._callback (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+22 silly fetchPackageMetaData     at Request.self.callback (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/request/request.js:187:22)
+22 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+22 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+22 silly fetchPackageMetaData     at Request.<anonymous> (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+22 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+22 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+22 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/request/request.js:969:12)
+22 silly fetchPackageMetaData  error for pisco-cells-app-create@^1.1.0 { Error: Registry returned 401 for GET on https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/pisco-cells-app-create
+22 silly fetchPackageMetaData     at makeError (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+22 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+22 silly fetchPackageMetaData     at Request._callback (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+22 silly fetchPackageMetaData     at Request.self.callback (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/request/request.js:187:22)
+22 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+22 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+22 silly fetchPackageMetaData     at Request.<anonymous> (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+22 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+22 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+22 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/request/request.js:969:12) pkgid: 'artifactory', statusCode: 401, code: 'E401' }
+23 silly rollbackFailedOptional Starting
+24 silly rollbackFailedOptional Finishing
+25 silly runTopLevelLifecycles Finishing
+26 silly install printInstalled
+27 verbose stack Error: Registry returned 401 for GET on https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/pisco-cells-app-create
+27 verbose stack     at makeError (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+27 verbose stack     at CachingRegistryClient.<anonymous> (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:280:14)
+27 verbose stack     at Request._callback (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+27 verbose stack     at Request.self.callback (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/request/request.js:187:22)
+27 verbose stack     at emitTwo (events.js:106:13)
+27 verbose stack     at Request.emit (events.js:191:7)
+27 verbose stack     at Request.<anonymous> (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+27 verbose stack     at emitOne (events.js:96:13)
+27 verbose stack     at Request.emit (events.js:188:7)
+27 verbose stack     at IncomingMessage.<anonymous> (/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/lib/node_modules/npm/node_modules/request/request.js:969:12)
+28 verbose statusCode 401
+29 verbose pkgid artifactory
+30 verbose cwd /Users/perunchithiranmanivel/Documents/Projects/test-deeplinking
+31 error Darwin 17.3.0
+32 error argv "/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/bin/node" "/Users/perunchithiranmanivel/.nvm/versions/node/v6.11.4/bin/npm" "install" "-g" "pisco-cells-app-create@^1.1.0"
+33 error node v6.11.4
+34 error npm  v3.10.10
+35 error code E401
+36 error Registry returned 401 for GET on https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/pisco-cells-app-create
+37 error If you need help, you may report this error at:
+37 error     <https://github.com/npm/npm/issues>
+38 verbose exit [ 1, true ]
